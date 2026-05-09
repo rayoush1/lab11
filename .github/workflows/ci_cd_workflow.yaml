@@ -37,6 +37,7 @@ jobs:
      - name: pytest
        run: uv run pytest tests/ -v
      # TODO: add steps for 'ruff check' and 'pytest tests/'
+     
 deployment:
   name: deploy_to_lambda
   runs-on: ubuntu-latest
